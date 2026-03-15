@@ -1,13 +1,26 @@
-/* Hide the right-hand table of contents sidebar (secondary sidebar) */
-.md-sidebar--secondary {
+/* Hide the standard left navigation sidebar (primary sidebar) */
+.md-sidebar--primary {
   display: none !important;
 }
 
-/* Expand the main content area to fill the available width */
-.md-main {
-  margin-right: 0 !important;
+/* Show the right-hand table of contents sidebar (secondary sidebar) on the left */
+.md-sidebar--secondary {
+  display: block !important;
+  position: fixed !important;
+  left: 0 !important;
+  top: 0 !important;
+  height: 100% !important;
+  overflow-y: auto !important;
+  width: 280px !important;
+  padding-top: 60px !important; /* account for header */
 }
 
+/* Shift main content area to the right to avoid being overlapped by the sidebar */
+.md-main {
+  margin-left: 300px !important;
+}
+
+/* Allow content to use full width of the remaining space */
 .md-content {
   max-width: 100% !important;
 }
