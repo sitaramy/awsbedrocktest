@@ -19,7 +19,7 @@
     
     
       
-        <title>AWS Bedrock Service Examples</title>
+        <title>AWS Bedrock Service Use Cases</title>
       
     
     
@@ -60,7 +60,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#aws-bedrock-testing-details" class="md-skip">
+        <a href="#mutual-fund-advisory-service-use-case-details" class="md-skip">
           Skip to content
         </a>
       
@@ -76,7 +76,7 @@
 
 <header class="md-header md-header--shadow" data-md-component="header">
   <nav class="md-header__inner md-grid" aria-label="Header">
-    <a href="." title="AWS Bedrock Service Examples" class="md-header__button md-logo" aria-label="AWS Bedrock Service Examples" data-md-component="logo">
+    <a href="." title="AWS Bedrock Service Use Cases" class="md-header__button md-logo" aria-label="AWS Bedrock Service Use Cases" data-md-component="logo">
       
   
   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
@@ -90,7 +90,7 @@
       <div class="md-header__ellipsis">
         <div class="md-header__topic">
           <span class="md-ellipsis">
-            AWS Bedrock Service Examples
+            AWS Bedrock Service Use Cases
           </span>
         </div>
         <div class="md-header__topic" data-md-component="header-topic">
@@ -174,13 +174,13 @@
 
 <nav class="md-nav md-nav--primary" aria-label="Navigation" data-md-level="0">
   <label class="md-nav__title" for="__drawer">
-    <a href="." title="AWS Bedrock Service Examples" class="md-nav__button md-logo" aria-label="AWS Bedrock Service Examples" data-md-component="logo">
+    <a href="." title="AWS Bedrock Service Use Cases" class="md-nav__button md-logo" aria-label="AWS Bedrock Service Use Cases" data-md-component="logo">
       
   
   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
 
     </a>
-    AWS Bedrock Service Examples
+    AWS Bedrock Service Use Cases
   </label>
   
   <ul class="md-nav__list" data-md-scrollfix>
@@ -252,33 +252,34 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#service-overview" class="md-nav__link">
+  <a href="#technical-summary" class="md-nav__link">
     <span class="md-ellipsis">
       
-        Service Overview
+        Technical Summary
       
     </span>
   </a>
   
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#usage-implementation" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Usage &amp; Implementation
-      
-    </span>
-  </a>
-  
-    <nav class="md-nav" aria-label="Usage &amp; Implementation">
+    <nav class="md-nav" aria-label="Technical Summary">
       <ul class="md-nav__list">
         
           <li class="md-nav__item">
-  <a href="#prerequisites" class="md-nav__link">
+  <a href="#technical-architecture-overview-mutual-fund-ai-assistant" class="md-nav__link">
     <span class="md-ellipsis">
       
-        Prerequisites
+        Technical Architecture Overview: Mutual Fund AI Assistant
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Technical Architecture Overview: Mutual Fund AI Assistant">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#1-knowledge-base-rag-with-s3-vector-store" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        1. Knowledge Base (RAG) with S3 Vector Store
       
     </span>
   </a>
@@ -286,10 +287,21 @@
 </li>
         
           <li class="md-nav__item">
-  <a href="#sample-code" class="md-nav__link">
+  <a href="#2-live-action-group-lambda-mf-apis" class="md-nav__link">
     <span class="md-ellipsis">
       
-        Sample Code
+        2. Live Action Group (Lambda &amp; MF APIs)
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#3-amazon-bedrock-agents" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        3. Amazon Bedrock Agents
       
     </span>
   </a>
@@ -298,6 +310,55 @@
         
       </ul>
     </nav>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#aws-services-used" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        AWS Services Used
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#aws-services-usage" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        AWS Services Usage
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#github-repository" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        GitHub Repository
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#conclusion" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Conclusion
+      
+    </span>
+  </a>
   
 </li>
       
@@ -336,33 +397,34 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#service-overview" class="md-nav__link">
+  <a href="#technical-summary" class="md-nav__link">
     <span class="md-ellipsis">
       
-        Service Overview
+        Technical Summary
       
     </span>
   </a>
   
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#usage-implementation" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Usage &amp; Implementation
-      
-    </span>
-  </a>
-  
-    <nav class="md-nav" aria-label="Usage &amp; Implementation">
+    <nav class="md-nav" aria-label="Technical Summary">
       <ul class="md-nav__list">
         
           <li class="md-nav__item">
-  <a href="#prerequisites" class="md-nav__link">
+  <a href="#technical-architecture-overview-mutual-fund-ai-assistant" class="md-nav__link">
     <span class="md-ellipsis">
       
-        Prerequisites
+        Technical Architecture Overview: Mutual Fund AI Assistant
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Technical Architecture Overview: Mutual Fund AI Assistant">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#1-knowledge-base-rag-with-s3-vector-store" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        1. Knowledge Base (RAG) with S3 Vector Store
       
     </span>
   </a>
@@ -370,10 +432,21 @@
 </li>
         
           <li class="md-nav__item">
-  <a href="#sample-code" class="md-nav__link">
+  <a href="#2-live-action-group-lambda-mf-apis" class="md-nav__link">
     <span class="md-ellipsis">
       
-        Sample Code
+        2. Live Action Group (Lambda &amp; MF APIs)
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#3-amazon-bedrock-agents" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        3. Amazon Bedrock Agents
       
     </span>
   </a>
@@ -382,6 +455,55 @@
         
       </ul>
     </nav>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#aws-services-used" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        AWS Services Used
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#aws-services-usage" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        AWS Services Usage
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#github-repository" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        GitHub Repository
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#conclusion" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Conclusion
+      
+    </span>
+  </a>
   
 </li>
       
@@ -402,25 +524,146 @@
 
 
 
-<h1 id="aws-bedrock-testing-details">AWS Bedrock Testing &amp; Details</h1>
-<p>Welcome to the technical overview of AWS Bedrock implementation.</p>
-<h2 id="service-overview">Service Overview</h2>
-<p>Amazon Bedrock is a fully managed service that offers a choice of high-performing foundation models (FMs) from leading AI companies like AI21 Labs, Anthropic, Cohere, and Meta via a single API.</p>
-<h2 id="usage-implementation">Usage &amp; Implementation</h2>
-<p>To use Bedrock in your application, you can use the Boto3 library in Python.</p>
-<h3 id="prerequisites">Prerequisites</h3>
+<h1 id="mutual-fund-advisory-service-use-case-details">Mutual Fund Advisory Service | Use Case Details</h1>
+<p>Build a mutual fund advisory service that will pull basic mutual funds details of all AMCs from the MF fact sheets. For a given MF, it searches for scheme code for a given MF scheme name, searches for its NAV, shows historical NAV and does mutual fund analysis.</p>
+<h2 id="technical-summary">Technical Summary</h2>
+<p>This technical summary outlines the architecture of a sophisticated AI Investment Assistant built on AWS. The system orchestrates between static document intelligence (RAG) and real-time financial data (Action Groups).</p>
+<h3 id="technical-architecture-overview-mutual-fund-ai-assistant">Technical Architecture Overview: Mutual Fund AI Assistant</h3>
+<p>The solution utilizes a "ReAct" (Reasoning and Acting) orchestration pattern powered by Amazon Nova Pro, balancing document retrieval with real-time API execution.</p>
+<h4 id="1-knowledge-base-rag-with-s3-vector-store">1. Knowledge Base (RAG) with S3 Vector Store</h4>
 <ul>
-<li>AWS Account with Bedrock model access enabled.</li>
-<li>IAM permissions for <code>bedrock:InvokeModel</code>.</li>
+<li><strong>Data Source:</strong> PDF Factsheets stored in Amazon S3. These documents contain static fund data: investment objectives, category definitions, and risk-o-meters.</li>
+<li><strong>Vector Storage:</strong> Instead of external clusters, the KB uses Bedrock’s managed vector store backed by S3.</li>
 </ul>
-<h3 id="sample-code">Sample Code</h3>
-<p>```python
-import boto3</p>
-<p>bedrock = boto3.client(service_name='bedrock-runtime')</p>
-<p>response = bedrock.invoke_model(
-    modelId='anthropic.claude-v2',
-    body='{"prompt": "Hello Claude!", "max_tokens_to_sample": 300}'
-)</p>
+<p><strong>Ingestion Pipeline:</strong></p>
+<ul>
+<li><strong>S3 Sync:</strong> Documents are pulled directly from the source bucket.</li>
+<li><strong>Embedding Model:</strong> Text chunks are transformed into vector embeddings (typically via Titan Text Embeddings).</li>
+</ul>
+<p><strong>RAG Flow:</strong> When a user asks about fund characteristics, Nova Pro queries the S3-backed index to retrieve relevant text segments to ground its answer.</p>
+<h4 id="2-live-action-group-lambda-mf-apis">2. Live Action Group (Lambda &amp; MF APIs)</h4>
+<ul>
+<li><strong>Logic Layer:</strong> A Python-based AWS Lambda function acting as a unified dispatcher for the mfapi.in suite.</li>
+</ul>
+<p><strong>Functionality:</strong></p>
+<ul>
+<li><strong>search_fund:</strong> Sanitizes natural language queries (removing filler words like "mutual fund") to retrieve 6-digit AMFI scheme codes.</li>
+<li><strong>get_latest_nav:</strong> Real-time retrieval of the most recent Net Asset Value and date.</li>
+<li><strong>get_historical_nav:</strong> Fetches time-series data with a 90-day window limit to ensure low latency.</li>
+</ul>
+<p><strong>The Handshake Fix:</strong> The Lambda is programmed to echo the apiPath and httpMethod sent by Nova Pro, ensuring the Agent validates the response.</p>
+<h4 id="3-amazon-bedrock-agents">3. Amazon Bedrock Agents</h4>
+<ul>
+<li><strong>Core Model:</strong> Amazon Nova Pro serves as the "brain." It was chosen for its strong reasoning capabilities and its ability to handle complex tool-calling sequences.</li>
+</ul>
+<p><strong>Decision Logic:</strong></p>
+<ol>
+<li><strong>Identify:</strong> Nova Pro parses the user intent (e.g., "What is the NAV for the fund in this factsheet?").</li>
+<li><strong>Retrieve:</strong> It queries the S3 Knowledge Base to find the specific fund name or AMFI code from the PDF.</li>
+<li><strong>Act:</strong> If real-time data is needed, it triggers the Lambda Action Group.</li>
+<li><strong>Synthesize:</strong> It combines the PDF's qualitative data with the Lambda's quantitative data into a single formatted Markdown response.</li>
+</ol>
+<h2 id="aws-services-used">AWS Services Used</h2>
+<table>
+<thead>
+<tr>
+<th>AWS Service</th>
+<th>Key Functionality</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Amazon Nova Pro</td>
+<td>Intelligence &amp; Reasoning</td>
+<td>Powers the AI assistant with advanced reasoning capabilities.</td>
+</tr>
+<tr>
+<td>Bedrock Knowledge Base</td>
+<td>Scanning PDF Factsheets (RAG)</td>
+<td>Enables retrieval of information from mutual fund fact sheets using vector search.</td>
+</tr>
+<tr>
+<td>S3 (Managed Vectors)</td>
+<td>Storing "AI-ready" document data</td>
+<td>Hosts vectorized data for efficient querying and storage.</td>
+</tr>
+<tr>
+<td>AWS Lambda</td>
+<td>Real-time API Integration (NAV/Codes)</td>
+<td>Handles dynamic data retrieval for NAV and scheme codes via APIs.</td>
+</tr>
+<tr>
+<td>IAM</td>
+<td>Permission &amp; Access Control</td>
+<td>Manages secure access to AWS resources and services.</td>
+</tr>
+</tbody>
+</table>
+<h2 id="aws-services-usage">AWS Services Usage</h2>
+<p>Followings are the screenshots from the system demonstrating key workflow steps and tools.</p>
+<ul>
+<li>
+<p><strong>S3 bucket storing PDF fact sheets.</strong><br />
+<img alt="S3 Fact Sheets" src="images/mf_factsheet_s3.png" /></p>
+</li>
+<li>
+<p><strong>Bedrock Knowledge Base configuration overview.</strong><br />
+<img alt="Knowledge Base Setup" src="images/aws_bedrock_kb.png" /></p>
+</li>
+<li>
+<p><strong>Knowledge Base test query in Bedrock console.</strong><br />
+<img alt="Knowledge Base Console Test" src="images/aws_bedrock_kb_console_test.png" /></p>
+</li>
+<li>
+<p><strong>Knowledge Base test query in Bedrock console.</strong><br />
+<img alt="Knowledge Base CLI Test" src="images/aws_bedrock_kb_cli_test.png" /></p>
+</li>
+<li>
+<p><strong>Lambda Action Group configuration view.</strong><br />
+<img alt="Lambda Action Group" src="images/lambda_func_mfactiongroup.png" /></p>
+</li>
+<li>
+<p><strong>Lambda test execution output (search fund).</strong><br />
+<img alt="Lambda Test" src="images/lambda_func_mfactiongroup_test01.png" /></p>
+</li>
+<li>
+<p><strong>Lambda test execution output (NAV lookup).</strong><br />
+<img alt="Lambda NAV Test" src="images/lambda_func_mfactiongroup_test02.png" /></p>
+</li>
+<li>
+<p><strong>CLI interaction (Gist of fund allocation).</strong><br />
+<img alt="CLI Output" src="images/aws_agents.png" /></p>
+</li>
+<li>
+<p><strong>Bedrock Agent builder - agent details.</strong><br />
+<img alt="Agent Builder - Details" src="images/aws_agent_build_01.png" /></p>
+</li>
+<li>
+<p><strong>Bedrock Agent builder - agent details with action group.</strong><br />
+<img alt="Agent Builder - Details" src="images/aws_agent_build_02.png" /></p>
+</li>
+<li>
+<p><strong>Bedrock Agent builder - agent details with knowledge base.</strong><br />
+<img alt="Agent Builder - Details" src="images/aws_agent_build_02.png" /></p>
+</li>
+<li>
+<p><strong>Bedrock Agent builder - test response trace.</strong><br />
+<img alt="Agent Builder - Test" src="images/aws_agent_test01.png" /></p>
+</li>
+<li>
+<p><strong>Bedrock Agent builder - test response trace.</strong><br />
+<img alt="Agent Builder - Test" src="images/aws_agent_test02.png" /></p>
+</li>
+<li>
+<p><strong>Bedrock Agent builder - test response trace.</strong><br />
+<img alt="Agent Builder - Test" src="images/aws_agent_test03.png" /></p>
+</li>
+</ul>
+<h2 id="github-repository">GitHub Repository</h2>
+<p>Refer https://github.com/sitaramy/awsbedrocktest/tree/main for python script used to build and test AWS AI Services.</p>
+<h2 id="conclusion">Conclusion</h2>
+<p>The successful deployment of your Mutual Fund AI Assistant marks a transition from a simple chatbot to a sophisticated, agentic system. By integrating Amazon Nova Pro with a RAG-based Knowledge Base and real-time Lambda Action Groups, we have built a tool that doesn't just "talk" about finance—it actively researches and calculates data with high precision.</p>
 
 
 
