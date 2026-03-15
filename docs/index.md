@@ -106,4 +106,4 @@ Refer the following repository for python script that is used to build and test 
 Repo: [sitaramy/awsbedrocktest](https://github.com/sitaramy/awsbedrocktest/tree/main)
 
 ## Conclusion
-The successful deployment of your Mutual Fund AI Assistant marks a transition from a simple chatbot to a sophisticated, agentic system. By integrating Amazon Nova Pro with a RAG-based Knowledge Base and real-time Lambda Action Groups, we have built a tool that doesn't just "talk" about finance—it actively researches and calculates data with high precision.
+The deployment of the Mutual Fund AI Assistant signifies a major evolution from rudimentary chatbots to an advanced agentic system. Through the seamless integration of Amazon Nova Pro with a RAG-powered Knowledge Base and real-time Lambda Action Groups, the platform transcends mere conversational capabilities—it actively conducts research and delivers precise financial calculations.
