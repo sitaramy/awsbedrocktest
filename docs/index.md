@@ -101,6 +101,8 @@ Followings are the screenshots from the system demonstrating key workflow steps 
 - **Bedrock Agent builder - test response trace.**  
   ![Agent Builder - Test](images/aws_agent_test03.png)
 
+## GitHub Repository
+Refer https://github.com/sitaramy/awsbedrocktest/tree/main for python script used to build and test AWS AI Services.
 
 ## Conclusion
 
