@@ -49,6 +49,7 @@ The solution utilizes a "ReAct" (Reasoning and Acting) orchestration pattern pow
 | AWS Service | Key Functionality | Description |
 |-------------|-------------------|-------------|
 | Amazon Nova Pro | Intelligence & Reasoning | Powers the AI assistant with advanced reasoning capabilities. |
+| Bedrock Agents | Orchestration & Tool Execution | Manages agent configuration, tool calls, and execution flow for the MF advisory workflow. |
 | Bedrock Knowledge Base | Scanning PDF Factsheets (RAG) | Enables retrieval of information from mutual fund fact sheets using vector search. |
 | S3 (Managed Vectors) | Storing "AI-ready" document data | Hosts vectorized data for efficient querying and storage. |
 | AWS Lambda | Real-time API Integration (NAV/Codes) | Handles dynamic data retrieval for NAV and scheme codes via APIs. |
@@ -66,7 +67,7 @@ Followings are the screenshots from the system demonstrating key workflow steps 
 - **Knowledge Base test query in Bedrock console.**  
   ![Knowledge Base Console Test](images/aws_bedrock_kb_console_test.png)
 
-- **Knowledge Base test query in Bedrock console.**  
+- **Knowledge Base test query through CLI python script.**  
   ![Knowledge Base CLI Test](images/aws_bedrock_kb_cli_test.png)
 
 - **Lambda Action Group configuration view.**  
@@ -101,7 +102,8 @@ Followings are the screenshots from the system demonstrating key workflow steps 
 
 ## GitHub Repository
 Refer the following repository for python script that is used to build and test AWS AI Services.
-Repo : https://github.com/sitaramy/awsbedrocktest/tree/main
+
+Repo: [sitaramy/awsbedrocktest](https://github.com/sitaramy/awsbedrocktest/tree/main)
 
 ## Conclusion
 The successful deployment of your Mutual Fund AI Assistant marks a transition from a simple chatbot to a sophisticated, agentic system. By integrating Amazon Nova Pro with a RAG-based Knowledge Base and real-time Lambda Action Groups, we have built a tool that doesn't just "talk" about finance—it actively researches and calculates data with high precision.
