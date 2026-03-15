@@ -58,7 +58,7 @@ The solution utilizes a "ReAct" (Reasoning and Acting) orchestration pattern pow
 Followings are the screenshots from the system demonstrating key workflow steps and tools.
 
 - **S3 bucket storing PDF fact sheets.**  
-  ![S3 Fact Sheets](images/mf_factsheet_s3.png)
+  ![MF Fact Sheets Hosted on S3](images/mf_factsheet_s3.png)
 
 - **Bedrock Knowledge Base configuration overview.**  
   ![Knowledge Base Setup](images/aws_bedrock_kb.png)
@@ -78,8 +78,8 @@ Followings are the screenshots from the system demonstrating key workflow steps 
 - **Lambda test execution output (NAV lookup).**  
   ![Lambda NAV Test](images/lambda_func_mfactiongroup_test02.png)
 
-- **CLI interaction (Gist of fund allocation).**  
-  ![CLI Output](images/aws_agents.png)
+- **AWS Agents (List of Bedrock Agents).**  
+  ![AWS Agents](images/aws_agents.png)
 
 - **Bedrock Agent builder - agent details.**  
   ![Agent Builder - Details](images/aws_agent_build_01.png)
@@ -88,15 +88,15 @@ Followings are the screenshots from the system demonstrating key workflow steps 
   ![Agent Builder - Details](images/aws_agent_build_02.png)
 
 - **Bedrock Agent builder - agent details with knowledge base.**  
-  ![Agent Builder - Details](images/aws_agent_build_02.png)
+  ![Agent Builder - Details](images/aws_agent_build_03.png)
 
-- **Bedrock Agent builder - test response trace.**  
+- **Bedrock Agent builder - Test 1.**  
   ![Agent Builder - Test](images/aws_agent_test01.png)
 
-- **Bedrock Agent builder - test response trace.**  
+- **Bedrock Agent builder - Test 2.**  
   ![Agent Builder - Test](images/aws_agent_test02.png)
 
-- **Bedrock Agent builder - test response trace.**  
+- **Bedrock Agent builder - Test 3 with traces.**  
   ![Agent Builder - Test](images/aws_agent_test03.png)
 
 ## GitHub Repository
