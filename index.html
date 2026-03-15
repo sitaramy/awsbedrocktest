@@ -19,7 +19,7 @@
     
     
       
-        <title>AWS Bedrock Service Use Cases</title>
+        <title>AWS Bedrock Service Use Cases | AI Assisted Mututal Funds (MF) Advisory Service</title>
       
     
     
@@ -42,6 +42,8 @@
       
     
     
+      <link rel="stylesheet" href="css/extra.css">
+    
     <script>__md_scope=new URL(".",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
     
       
@@ -60,7 +62,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#mutual-fund-advisory-service-use-case-details" class="md-skip">
+        <a href="#ai-assisted-mututal-funds-mf-advisory-service" class="md-skip">
           Skip to content
         </a>
       
@@ -76,7 +78,7 @@
 
 <header class="md-header md-header--shadow" data-md-component="header">
   <nav class="md-header__inner md-grid" aria-label="Header">
-    <a href="." title="AWS Bedrock Service Use Cases" class="md-header__button md-logo" aria-label="AWS Bedrock Service Use Cases" data-md-component="logo">
+    <a href="." title="AWS Bedrock Service Use Cases | AI Assisted Mututal Funds (MF) Advisory Service" class="md-header__button md-logo" aria-label="AWS Bedrock Service Use Cases | AI Assisted Mututal Funds (MF) Advisory Service" data-md-component="logo">
       
   
   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
@@ -90,7 +92,7 @@
       <div class="md-header__ellipsis">
         <div class="md-header__topic">
           <span class="md-ellipsis">
-            AWS Bedrock Service Use Cases
+            AWS Bedrock Service Use Cases | AI Assisted Mututal Funds (MF) Advisory Service
           </span>
         </div>
         <div class="md-header__topic" data-md-component="header-topic">
@@ -174,13 +176,13 @@
 
 <nav class="md-nav md-nav--primary" aria-label="Navigation" data-md-level="0">
   <label class="md-nav__title" for="__drawer">
-    <a href="." title="AWS Bedrock Service Use Cases" class="md-nav__button md-logo" aria-label="AWS Bedrock Service Use Cases" data-md-component="logo">
+    <a href="." title="AWS Bedrock Service Use Cases | AI Assisted Mututal Funds (MF) Advisory Service" class="md-nav__button md-logo" aria-label="AWS Bedrock Service Use Cases | AI Assisted Mututal Funds (MF) Advisory Service" data-md-component="logo">
       
   
   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
 
     </a>
-    AWS Bedrock Service Use Cases
+    AWS Bedrock Service Use Cases | AI Assisted Mututal Funds (MF) Advisory Service
   </label>
   
   <ul class="md-nav__list" data-md-scrollfix>
@@ -250,6 +252,17 @@
       Table of contents
     </label>
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#use-case-details" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Use Case Details
+      
+    </span>
+  </a>
+  
+</li>
       
         <li class="md-nav__item">
   <a href="#technical-summary" class="md-nav__link">
@@ -397,6 +410,17 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
+  <a href="#use-case-details" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Use Case Details
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
   <a href="#technical-summary" class="md-nav__link">
     <span class="md-ellipsis">
       
@@ -524,8 +548,9 @@
 
 
 
-<h1 id="mutual-fund-advisory-service-use-case-details">Mutual Fund Advisory Service | Use Case Details</h1>
-<p>Build a mutual fund advisory service that will pull basic mutual funds details of all AMCs from the MF fact sheets. For a given MF, it searches for scheme code for a given MF scheme name, searches for its NAV, shows historical NAV and does mutual fund analysis.</p>
+<h1 id="ai-assisted-mututal-funds-mf-advisory-service">AI Assisted Mututal Funds (MF) Advisory Service</h1>
+<h2 id="use-case-details">Use Case Details</h2>
+<p>Build a mutual fund advisory service that extracts key data from AMC fact sheets, including scheme codes, NAV values, and historical NAV time series. For a given scheme name, it finds the corresponding AMFI code, fetches the latest NAV, retrieves historical NAV data, and performs basic mutual fund analysis.</p>
 <h2 id="technical-summary">Technical Summary</h2>
 <p>This technical summary outlines the architecture of a sophisticated AI Investment Assistant built on AWS. The system orchestrates between static document intelligence (RAG) and real-time financial data (Action Groups).</p>
 <h3 id="technical-architecture-overview-mutual-fund-ai-assistant">Technical Architecture Overview: Mutual Fund AI Assistant</h3>
@@ -661,7 +686,8 @@
 </li>
 </ul>
 <h2 id="github-repository">GitHub Repository</h2>
-<p>Refer https://github.com/sitaramy/awsbedrocktest/tree/main for python script used to build and test AWS AI Services.</p>
+<p>Refer the following repository for python script that is used to build and test AWS AI Services.
+Repo : https://github.com/sitaramy/awsbedrocktest/tree/main</p>
 <h2 id="conclusion">Conclusion</h2>
 <p>The successful deployment of your Mutual Fund AI Assistant marks a transition from a simple chatbot to a sophisticated, agentic system. By integrating Amazon Nova Pro with a RAG-based Knowledge Base and real-time Lambda Action Groups, we have built a tool that doesn't just "talk" about finance—it actively researches and calculates data with high precision.</p>
 
