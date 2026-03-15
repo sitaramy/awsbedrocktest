@@ -1,4 +1,10 @@
-site_name: AWS Bedrock Service Use Cases
-theme: material  # If you have mkdocs-material installed
+site_name: AWS Bedrock Service Use Cases | AI Assisted Mututal Funds (MF) Advisory Service
+
+theme:
+  name: material  # If you have mkdocs-material installed
+
 nav:
   - Home: index.md
+
+extra_css:
+  - css/extra.css

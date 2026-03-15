@@ -1,0 +1,13 @@
+/* Hide the right-hand table of contents sidebar (secondary sidebar) */
+.md-sidebar--secondary {
+  display: none !important;
+}
+
+/* Expand the main content area to fill the available width */
+.md-main {
+  margin-right: 0 !important;
+}
+
+.md-content {
+  max-width: 100% !important;
+}

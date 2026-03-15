@@ -1,13 +1,12 @@
-# Mutual Fund Advisory Service | Use Case Details
+# AI Assisted Mututal Funds (MF) Advisory Service
 
-Build a mutual fund advisory service that will pull basic mutual funds details of all AMCs from the MF fact sheets. For a given MF, it searches for scheme code for a given MF scheme name, searches for its NAV, shows historical NAV and does mutual fund analysis.
+## Use Case Details
+Build a mutual fund advisory service that extracts key data from AMC fact sheets, including scheme codes, NAV values, and historical NAV time series. For a given scheme name, it finds the corresponding AMFI code, fetches the latest NAV, retrieves historical NAV data, and performs basic mutual fund analysis.
 
 ## Technical Summary
-
 This technical summary outlines the architecture of a sophisticated AI Investment Assistant built on AWS. The system orchestrates between static document intelligence (RAG) and real-time financial data (Action Groups).
 
 ### Technical Architecture Overview: Mutual Fund AI Assistant
-
 The solution utilizes a "ReAct" (Reasoning and Acting) orchestration pattern powered by Amazon Nova Pro, balancing document retrieval with real-time API execution.
 
 #### 1. Knowledge Base (RAG) with S3 Vector Store
@@ -56,7 +55,6 @@ The solution utilizes a "ReAct" (Reasoning and Acting) orchestration pattern pow
 | IAM | Permission & Access Control | Manages secure access to AWS resources and services. |
 
 ## AWS Services Usage 
-
 Followings are the screenshots from the system demonstrating key workflow steps and tools.
 
 - **S3 bucket storing PDF fact sheets.**  
@@ -102,8 +100,8 @@ Followings are the screenshots from the system demonstrating key workflow steps 
   ![Agent Builder - Test](images/aws_agent_test03.png)
 
 ## GitHub Repository
-Refer https://github.com/sitaramy/awsbedrocktest/tree/main for python script used to build and test AWS AI Services.
+Refer the following repository for python script that is used to build and test AWS AI Services.
+Repo : https://github.com/sitaramy/awsbedrocktest/tree/main
 
 ## Conclusion
-
 The successful deployment of your Mutual Fund AI Assistant marks a transition from a simple chatbot to a sophisticated, agentic system. By integrating Amazon Nova Pro with a RAG-based Knowledge Base and real-time Lambda Action Groups, we have built a tool that doesn't just "talk" about finance—it actively researches and calculates data with high precision.
