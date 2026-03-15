@@ -1,0 +1,4 @@
+site_name: AWS Bedrock Service Examples
+theme: material  # If you have mkdocs-material installed
+nav:
+  - Home: index.md
