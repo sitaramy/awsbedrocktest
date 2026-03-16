@@ -91,14 +91,17 @@ Followings are the screenshots from the system demonstrating key workflow steps 
 - **Bedrock Agent builder - agent details with knowledge base.**  
   ![Agent Builder - Details](images/aws_agent_build_03.png)
 
-- **Bedrock Agent builder - Test 1.**  
+- **Bedrock Agent - Test 1.**  
   ![Agent Builder - Test](images/aws_agent_test01.png)
 
-- **Bedrock Agent builder - Test 2.**  
-  ![Agent Builder - Test](images/aws_agent_test02.png)
+- **Bedrock Agent - Test 2.**  
+  ![Bedrock Agent - Test](images/aws_agent_test02.png)
 
-- **Bedrock Agent builder - Test 3 with traces.**  
-  ![Agent Builder - Test](images/aws_agent_test03.png)
+- **Bedrock Agent - Test 3 with traces.**  
+  ![Bedrock Agent - Test](images/aws_agent_test03.png)
+
+- **Bedrock Agent - Test from CLI Python Script.**  
+  ![Bedrock Agent - CLI Python Test](images/aws_agent_test_cli_01.png)
 
 ## GitHub Repository
 Refer the following repository for python script that is used to build and test AWS AI Services.
